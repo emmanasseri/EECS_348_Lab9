@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .header {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .videosection {
+            float: right;
+        }
+
+        .header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .header h1 {
+            font-size: 36px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+
+        .contact-info div {
+            margin-bottom: 10px;
+        }
+
+        .contact-info div span {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            font-size: 24px;
+            margin: 0 0 10px 0;
+            padding: 0;
+        }
+
+        .section .item {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 10px;
+        }
+
+        .section .item .item-left {
+            width: 200px;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        .section .item .item-right {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="profile_pic.jpeg" alt="Profile Photo">
+            <h1>Emma N.</h1>
+        </div>
+        <div class="videosection">
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/j7xYjhJ1sI0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+        </div>
+        <div class="contact-info">
+            <div><span>Email:</span> enasseri02@ku.edu</div>
+            <div><span>Location:</span> Kansas</div>
+            <div><span>LinkedIn:</span> <a href="https://www.linkedin.com/in/emma-nasseri/">Click Here</a></div>
+        </div>
+        <div class="section">
+            <h2>Professional Experience</h2>
+            <div class="item">
+                <div class="item-left">Security Benefit</div>
+                <div class="item-right">
+                    <div> Software Development Intern</div>
+                    <div> Dec 2021 - Jan 2023</div>
+                    <div>Responsibilities:</div>
+                    <ul>
+                        <li>Developing new features for web applications</li>
+                        <li>Collaborating with cross-functional teams</li>
+                        <li>Debugging and troubleshooting issues</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-left">University of Kansas</div>
+                <div class="item-right">
+                    <div>
+                        <div> Undergraduate Teaching Fellow: Programming I</div>
+                        <div> Aug 2022 - Present</div>
+                        <div>Responsibilities:</div>
+                        <ul>
+                            <li>Assisted in classroom activities</li>
+                            <li>Reviewed and debugged handwritted Python code</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <h2>Involvement</h2>
+                <div class="item">
+                    <div class="item-left">KU Blockchain Institute</div>
+                    <div class="item-right">
+                        <div>Description: Organized and led meetings, managed multiple project timelines, and led
+                            multiple trips both international and domestic.</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-left">University Venture Fund Crossroads</div>
+                    <div class="item-right">
+                        <div>Description: Worked with other students to source, analyze, and pitch companies for
+                            potential investment.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <h2>Courses</h2>
+                <div class="item">
+                    <div class="item-left">Course Name</div>
+                    <div class="item-right">
+                        <div>Institution: University of Kansas</div>
+                        <div>Duration: Aug 2020 - Present</div>
+                        <div>Coursework:</div>
+                        <ul>
+                            <li>Programming I and II</li>
+                            <li>Data Structures and Algorithms</li>
+                            <li>Software Engineering</li>
+                            <li>Computer Architecture</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
